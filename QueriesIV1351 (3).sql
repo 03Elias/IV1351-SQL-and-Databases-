@@ -102,6 +102,6 @@ CREATE VIEW weekly_ensambles AS (
     END AS number_of_free_seats,
   FROM
     all_ensambles
-  ORDER BY lesson_time ASC
+  ORDER BY lesson_time, genres ASC
 );
 
